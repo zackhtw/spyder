@@ -1,6 +1,6 @@
 from selenium import webdriver
 from selenium.webdriver.common.keys import Keys
-driver = webdriver.Chrome(r'C:/Users/hanta/Desktop/Spyder/chromedriver/chromedriver.exe')
+driver = webdriver.Chrome(r'chromedriver/chromedriver.exe')
 #driver.get("http://www.python.org")
 driver.get("https://www.youtube.com/")
 #assert "Python" in driver.title
